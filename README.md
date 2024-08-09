@@ -1,2 +1,2 @@
-TodoList ✔
-# https://github.com/KianEbtekari0/TodoList.git
+# TodoList ✔
+ This is a todo list project using Local Storage
