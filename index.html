@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <link href="./bootstrap.min.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+  <title>Javascript</title>
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center">Todo List App</h2>
+
+    <div class="form-group">
+      <label class="add">Add Item</label>
+      <input type="text" class="form-control" name="" id="itemInput" />
+    </div>
+    <button id="addButton" class="btn btn-primary">Add To List</button>
+    <button id="clearButton" class="btn btn-danger">Clear Todo List</button>
+    <h3>Todo List</h3>
+    <p class="error">please enter somthing :(</p>
+    <ul id="todoList" class="todoList">
+      <li class="completed well"> <!-- uncompleted for uncompleted todos -->
+        <label class="test">Test</label>
+        <button class="btn btn-success" id="completeBtn">Complete</button>
+        <button class="btn btn-danger" id="deleteBtn">Delete</button>
+      </li>
+    </ul>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
